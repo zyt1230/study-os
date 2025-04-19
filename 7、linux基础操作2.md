@@ -3,7 +3,7 @@
 一、linux调度
 ---------
 
-### 1、crontab \[选项\]
+### 1、[crontab](https://so.csdn.net/so/search?q=crontab&spm=1001.2101.3001.7020) \[选项\]
 
 #### 1.1、了解
 
@@ -316,7 +316,7 @@ hostname new-hostname
 
 ```
 
-也可以修改/etc/hostname指定主机名名称。注意，修改完成之后，需要重启linux系统才能生效。
+也可以修改/etc/hostname指定主机名名称。注意，修改完成之后，需要重启[linux系统](https://so.csdn.net/so/search?q=linux%E7%B3%BB%E7%BB%9F&spm=1001.2101.3001.7020)才能生效。
 
 在 Linux 中，`/etc/hosts` 文件用于将主机名映射到 IP 地址。这对于本地网络中的主机名解析非常有用。  
 思考：我们可以通过ping linux的ip地址能ping通linux。那么我们可不可以通过ping linux的主机名 来ping通linux呢，答案是**不可以的**。  

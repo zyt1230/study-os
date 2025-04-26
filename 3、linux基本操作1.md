@@ -3,7 +3,12 @@
 
 > + ubuntu可能刚开始在xshell上使用ssh连接vmvare不得行。
 >     - 可以先更新apt：sudo apt upgrade
->     - 再安装ssh客户端：
+>     - 再安装ssh客户端：sudo apt-get install openssh-server
+>     - sudo service ssh start 【在启动该服务】
+> + ssh的Xshell问题，密码输入会报错，无法连接。
+>     - 就进入root 用户，vi /etc/ssh/sshd_config
+>     - permitLogin yes
+>     - 
 >
 
 （**root用户下是用来安装各种东西等等的，尽量不使用这个账户**）

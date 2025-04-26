@@ -7,8 +7,8 @@
 >     - sudo service ssh start 【在启动该服务】
 > + ssh的Xshell问题，密码输入会报错，无法连接。
 >     - 就进入root 用户，vi /etc/ssh/sshd_config
->     - permitLogin yes
->     - 
+>     - permitRootLogin yes等等
+>     - ![](https://cdn.nlark.com/yuque/0/2025/png/40383045/1745654862836-4b0b4d47-6264-4fbe-be88-c278981bfd45.png)
 >
 
 （**root用户下是用来安装各种东西等等的，尽量不使用这个账户**）

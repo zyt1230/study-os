@@ -16,7 +16,7 @@ vim 文件名 //如果没有这个文件，它会自己在当前目录生成
 
 + 创建好后，它会自己进入编辑里面
     - 你会看到这样的界面  
-![](https://i-blog.csdnimg.cn/direct/d31723c783a1404db36a938e5abfbda7.png)
+    ![](https://i-blog.csdnimg.cn/direct/d31723c783a1404db36a938e5abfbda7.png)
 + 进行编辑
 
 ```plain
@@ -84,7 +84,7 @@ $ 表示光标移动到 当前行的 行尾位置
 
 ## 二、什么是shell编程？
 ### 1、了解
-Shell编程是指利用**Shell脚本（Shell Script）****来****自动化执行一系列命令或任务**。`Shell是一种命令行解释器`，充当用**户与操作系统内核**（如Linux/Unix）之间**的桥梁**，而Shell脚本则是包含多个Shell命令的文本文件，可以**批量运行这些命令**。  
+Shell编程是指利用**Shell脚本（Shell Script）****来****自动化执行一系列命令或任务**。`Shell是一种命令行解释器`，充当用**户与操作系统内核**（如Linux/Unix）之间**的桥梁**，而Shell脚本则是包含多个Shell命令的文本文件，可以**批量运行这些命令。  
 ![](https://i-blog.csdnimg.cn/direct/d77e5730ba8f454394cebbb340291120.png)
 
 ---
@@ -216,7 +216,7 @@ echo D=$D
 + 基本语法
     - export 变量名=变量值
     - 将shell变量输出为环境变量/全局变量。那样多个脚本都可以使用 .sh 文件。  
-![](https://i-blog.csdnimg.cn/direct/53d7bbc0bbee4a528f69917db29b2fc5.png)
+    ![](https://i-blog.csdnimg.cn/direct/53d7bbc0bbee4a528f69917db29b2fc5.png)
 + source 配置文件：让修改后的配置文件立即失效
 + echo $变量名 :查询环境变量的值
 

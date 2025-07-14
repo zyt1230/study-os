@@ -84,7 +84,7 @@ $ 表示光标移动到 当前行的 行尾位置
 
 ## 二、什么是shell编程？
 ### 1、了解
-Shell编程是指利用**Shell脚本（Shell Script）****来****自动化执行一系列命令或任务**。`Shell是一种命令行解释器`，充当用**户与操作系统内核**（如Linux/Unix）之间**的桥梁**，而Shell脚本则是包含多个Shell命令的文本文件，可以**批量运行这些命令。  
+Shell编程是指利用**Shell脚本（Shell Script）**来自动化执行一系列命令或任务**。`Shell是一种命令行解释器`，充当用**户与操作系统内核**（如Linux/Unix）之间**的桥梁**，而Shell脚本则是包含多个Shell命令的文本文件，可以**批量运行这些命令。  
 ![](https://i-blog.csdnimg.cn/direct/d77e5730ba8f454394cebbb340291120.png)
 
 ---

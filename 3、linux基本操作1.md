@@ -2,7 +2,7 @@
 ---
 
 > + ubuntu可能刚开始在xshell上使用ssh连接vmvare不得行。
->     - 可以先更新apt：sudo apt upgrade
+>     - 可以先更新apt：sudo apt updade
 >     - 再安装ssh客户端：sudo apt-get install openssh-server
 >     - sudo service ssh start 【在启动该服务】
 > + ssh的Xshell问题，密码输入会报错，无法连接。
@@ -221,14 +221,14 @@ less 文件名 //这个我用的多一些，more和less看你们喜欢哪个用�
     - 输出环境变量 echo $PATH 【很少遇到，理解即可】
     - 输出主机名称 echo $HOSTNAME 【理解即可】
     - 输出内存到bash上 【**这个要知道**】  
-![](https://i-blog.csdnimg.cn/direct/06c50ee92b3f4a30ba02449eb3d9f7d1.png)
+    ![](https://i-blog.csdnimg.cn/direct/06c50ee92b3f4a30ba02449eb3d9f7d1.png)
 
 ![](https://i-blog.csdnimg.cn/direct/0597c2badaa945e7801a7036e6f767b8.png)
 
 + head
     - head -n 文件：显示文件的前5行内容
     - head 文件：默认显示前10行内容  
-![](https://i-blog.csdnimg.cn/direct/8709e55715d9438d836e949616809612.png)
+    ![](https://i-blog.csdnimg.cn/direct/8709e55715d9438d836e949616809612.png)
 + tail
     - tail 文件： 查看文件最后10行的内容
     - tail -n 5 文件： 查看文件最后5行的内容，5可以是任意数）
@@ -240,10 +240,10 @@ less 文件名 //这个我用的多一些，more和less看你们喜欢哪个用�
     - ln -s[源文件和目录][软连接名称] //创建软连接
         * 使用方法很简单，这个源文件或目录就是取了个别名，你调用别名就行了。例如：看内容，cat file
     - rm -f 名称 //删除软连接  
-![](https://i-blog.csdnimg.cn/direct/f467465cb72b49fe971e5adf18bd82ba.png)
+    ![](https://i-blog.csdnimg.cn/direct/f467465cb72b49fe971e5adf18bd82ba.png)
 + history:查看用户已经执行过的指令
     - history 10：查看当前用户的最近10条指令  
-![](https://i-blog.csdnimg.cn/direct/400480ef7c474763aefd240e7bcf1acd.png)
+    ![](https://i-blog.csdnimg.cn/direct/400480ef7c474763aefd240e7bcf1acd.png)
 
 #### 2、时间
 + 查看时间
